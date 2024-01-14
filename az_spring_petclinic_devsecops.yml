@@ -21,7 +21,7 @@ steps:
 - task: Docker@2
   inputs:
     containerRegistry: 'dockerhubconn'
-    repository: 'chanddocker/springBootDocker'
+    repository: 'chanddocker/springpetclinic'
     command: 'buildAndPush'
     Dockerfile: '**/Dockerfile'
     tags: |
